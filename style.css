@@ -12,7 +12,7 @@
     background-color: rgb(11, 12, 26);
 }
 .textArea {
-    width: 200px;
+    width: 180px;
 }
 .areaLista {
     flex-direction: column;
@@ -66,4 +66,16 @@ button {
 }
 button:hover {
     border: 2px solid #99d8be;
+}
+
+@media (max-width: 600px) {
+    .container {
+       flex-direction: column;
+    }
+    .textArea {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 350px;
+    }
+        
 }
