@@ -5,11 +5,11 @@ function verificarInput() {
     const valorInput = verificar.value;
     const mostrar = document.querySelector('.mostra');
 
-    for(let i = 1; i < valorInput; i++) {
+    for(let i = 0; i < valorInput; i++) {
         if( valorInput % 2 === 0 ) {
-            mostrar.innerHTML = i + " É PAR"
+            mostrar.innerHTML = valorInput + " É PAR"
         } else {
-            mostrar.innerHTML = i + " É IMPAR"
+            mostrar.innerHTML = valorInput + " É IMPAR"
         }
     }
 }
